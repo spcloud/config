@@ -31,16 +31,16 @@
 	</properties>
 
 	<dependencies>
-		<!--Config-->
+		<!--Spring Cloud Config-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<!--Spring Cloud Config Server-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<build>
