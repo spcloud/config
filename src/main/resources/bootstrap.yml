@@ -1,0 +1,13 @@
+server:
+  port: 8880
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          url:
+          searchPaths: license
+          username: w2lkin
+          password: 123456Cc!
+
+          
