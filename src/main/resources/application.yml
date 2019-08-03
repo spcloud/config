@@ -4,4 +4,4 @@ spring:
       server:
         git:
           uri: https://github.com/spcloud/config-repo.git
-          searchPaths: license,organization
+          searchPaths: license,organization,zuul
